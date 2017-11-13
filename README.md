@@ -18,5 +18,3 @@ To run:
 - run:  
   cd ~/catkin_ws
   rosrun opencv_example opencv_example_node
-  
-Modify the code and comile again using catkin_make
