@@ -83,7 +83,7 @@ int main(int argc, char **argv)
   ros::NodeHandle n;
   
   // subsribe topic
-  ros::Subscriber sub = n.subscribe("/cv_camera/image_raw", 1000, imageCallback);
+  ros::Subscriber sub = n.subscribe("/camera/rgb/image_raw", 1000, imageCallback);
 
   // publish
   image_transport::ImageTransport it(n);
